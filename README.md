@@ -1,33 +1,13 @@
-# Full Stack Web Development - Class 01: Introduction to HTML
+# Full Stack Web Development Course - Documentation
 
-## Topics Covered
-- HTML Document Object Model (DOM) Structure
-- HTML Tags and Elements
-- HTML Attributes
-- Formatting Tags
-- Heading Tags
-- Paragraph Tags (`<p>`, `<pre>`)
-- Basic HTML Structure
+This repository contains the documentation for each class in the Full Stack Web Development course taught by Abdullah Al Sobail.
 
----
+## Class List
 
-## 1. HTML Structure and DOCTYPE Declaration
-In HTML, the structure of a document starts with the `<!DOCTYPE html>` declaration, followed by the main HTML tags (`<html>`, `<head>`, `<body>`). These define the overall framework of the web page.
+1. [Class 01: Introduction to HTML](./Class01/README.md)
+2. [Class 02: HTML Forms and Input Elements](./Class02/README.md)
+3. [Class 03: CSS Basics](./Class03/README.md)
+4. [Class 04: CSS Flexbox and Grid](./Class04/README.md)
+5. [Class 05: Introduction to JavaScript](./Class05/README.md)
 
-### Example:
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- Content goes here -->
-</body>
-</html>
-```
-## 2. Heading Tags (`<h1>` to `<h6>`)
-HTML provides six levels of headings, from `<h1>` (the most important) to `<h6>` (the least important).
-
+... More classes will be added here.
