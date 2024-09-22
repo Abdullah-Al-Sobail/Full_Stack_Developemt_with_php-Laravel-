@@ -27,3 +27,6 @@ In HTML, the structure of a document starts with the `<!DOCTYPE html>` declarati
     <!-- Content goes here -->
 </body>
 </html> ```
+## 2. Heading Tags (<h1> to <h6>)
+HTML provides six levels of headings, from `<h1>` (the most important) to `<h6>` (the least important).
+
