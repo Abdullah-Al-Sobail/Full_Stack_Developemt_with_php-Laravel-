@@ -39,13 +39,13 @@ HTML provides six levels of headings, from `<h1>` (the most important) to `<h6>`
 <h5>This is Heading5</h5>
 <h6>This is Heading6</h6>
 ```
-## Paragraph Tags (`<p>`) and Line Breaks (`<br>`)
+## 3. Paragraph Tags (`<p>`) and Line Breaks (`<br>`)
 Paragraphs are represented by the `<p>` tag. To insert a line break, the `<br>` tag is used.
 ```html
 <p>This is a paragraph. <br> This is another line in the same paragraph.</p>
 ```
-## 4. Horizontal Rule (<hr>)
-The <hr> tag creates a horizontal line, often used for separating content.
+## 4. Horizontal Rule (`<hr>`)
+The `<hr>` tag creates a horizontal line, often used for separating content.
 ### Example:
 ```html
 <hr>
