@@ -50,8 +50,8 @@ The `<hr>` tag creates a horizontal line, often used for separating content.
 ```html
 <hr>
 ```
-## 5. Preformatted Text (<pre>)
-The <pre> tag is used for displaying preformatted text, where spaces and line breaks are preserved.
+## 5. Preformatted Text (`<pre>`)
+The `<pre>` tag is used for displaying preformatted text, where spaces and line breaks are preserved.
 
 ### Example:
 ```html
@@ -64,8 +64,8 @@ The <pre> tag is used for displaying preformatted text, where spaces and line br
 ## 6. Formatting Tags
 HTML offers several tags to style and format text. These include:
 
-`<b>` and <strong> for bold text.
-`<i>` and <em> for italicized text.
+`<b>` and `<strong>` for bold text.
+`<i>` and `<em>` for italicized text.
 `<mark>` for highlighted text.
 `<del>` for strikethrough text.
 `<ins>` for inserted text.
