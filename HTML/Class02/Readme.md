@@ -1,4 +1,3 @@
-```markdown
 # Full Stack Web Development - Class 02: HTML Quotations, Comments, Colors, Links, and Images
 
 ## Topics Covered
