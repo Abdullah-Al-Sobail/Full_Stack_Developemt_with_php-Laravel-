@@ -12,7 +12,7 @@
 - The Picture Element
 
 ---
-
+```
 ## 1. HTML Quotations
 HTML provides different tags to define quotations, such as:
 - `<blockquote>` for block-level quotes.
@@ -171,4 +171,3 @@ The `<picture>` element allows you to serve different images based on screen siz
 **Date**: 24th September, 2024
 ```
 
-This markdown file includes the Class 02 topics, examples, and a summary. Let me know if you need further adjustments!
