@@ -1,4 +1,3 @@
-```markdown
 # Full Stack Web Development - Class 02: HTML Quotations, Comments, Colors, Links, and Images
 
 ## Topics Covered
@@ -169,6 +168,3 @@ The `<picture>` element allows you to serve different images based on screen siz
 **Instructor**: Abdullah Al Sobail  
 **Course**: Full Stack Web Development  
 **Date**: 24th September, 2024
-```
-
-This markdown file includes the Class 02 topics, examples, and a summary. Let me know if you need further adjustments!
