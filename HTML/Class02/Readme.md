@@ -168,3 +168,8 @@ The `<picture>` element allows you to serve different images based on screen siz
 **Instructor**: Abdullah Al Sobail  
 **Course**: Full Stack Web Development  
 **Date**: 24th September, 2024
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 452c88cd839d3706e1b0f12b2a969af107a24784
