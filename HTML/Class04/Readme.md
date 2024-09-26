@@ -101,7 +101,7 @@ Semantic HTML uses tags that describe their meaning. Tags like `<article>`, `<se
 
 ---
 
-### Summary Example (Your Provided Code):
+### Summary Example :
 ```html
 <!DOCTYPE html>
 <html lang="en">
