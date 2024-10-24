@@ -15,4 +15,6 @@ This repository contains the documentation for each class in the Full Stack Web 
 
 
 ## Class List CSS
+
+1. [Class 08: Class 01: CSS Introduction, Syntax, Selectors, How To, and Cascading Order](./CSS/Class01/Readme.md)
 ... More classes will be added here.
