@@ -1,0 +1,32 @@
+#border{
+   height: 500px;
+   width: 500px;
+    border-style: solid  ;
+
+    border-width: 5px  ;
+
+    border-color:  black;
+
+  
+    
+}
+.p{
+    border: 2px solid;
+    margin: 20px;
+}
+
+.margin1{
+    border: 2px solid red;
+    margin:20px 30px 50px 70px;
+    
+}
+
+.margin2{
+    border: 2px dotted black;
+    margin-right: 30px;
+}
+
+.padding{
+    border: 5px solid;
+    padding: 50px 30px 50px 30px;
+}
