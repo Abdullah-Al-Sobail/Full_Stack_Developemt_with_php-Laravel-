@@ -1,0 +1,44 @@
+.text{
+    border: 2px solid;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+   
+}
+#p{
+    color: aqua;
+    text-align:justify;
+    text-decoration: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+    text-indent: 0px;
+    letter-spacing: 0px;
+    line-height: 2;   
+    
+}
+img{
+    height: 100px;
+    vertical-align: middle;
+}
+.unicode{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+ .font1{
+    font-family: a;
+    font-style: normal;
+    font-weight: bold;
+    font-size: medium;
+
+ }
+ .font2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: thick;
+    font-weight: lighter;
+    font-size: 20px;
+    font-variant: small-caps;
+ }
+ i{
+ font-size: 100px;
+ color: blue;
+ }
