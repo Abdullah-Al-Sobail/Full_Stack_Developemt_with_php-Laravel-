@@ -1,4 +1,4 @@
-# Full Stack Web Development - CSS Class 04: Text, Fonts, and Icons
+# Full Stack Web Development - CSS Class 05: Text, Fonts, and Icons
 
 ## Topics Covered:
 1. CSS Text
