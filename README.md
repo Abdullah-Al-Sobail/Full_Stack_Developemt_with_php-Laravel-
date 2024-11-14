@@ -20,4 +20,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 2. [ Class 03: Borders, Margins, and Padding](./CSS/Class03/Readme.md)
 3. [ Class 04: Outline, Height & Width, and Box Model](./CSS/Class04/Readme.md)
 4. [ Class 05: Text, Fonts, and Icons](./CSS/Class05/Readme.md)
+5. [ CSS Class 06: Links, Lists, and Tables](./CSS/Class06/Readme.md)
 ... More classes will be added here.
