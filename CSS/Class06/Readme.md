@@ -202,4 +202,4 @@ tr:nth-child(even) {
 
 **Instructor**: Muaz Muhammad.  
 **Course**: Full Stack Web Development  
-**Date**: 13th November, 2024
+**Date**: 14th November, 2024
