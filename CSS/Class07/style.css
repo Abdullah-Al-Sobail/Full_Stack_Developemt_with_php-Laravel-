@@ -1,0 +1,71 @@
+ .div1{
+ border: 2px solid;
+ height: 50px;
+ width: 40%;
+ display: inline-block;
+visibility: hidden;
+ 
+}
+.div2{
+    border: 2px solid red;
+    height: 50px;
+    width: 40%;
+    display: inline-block;
+}
+.div3{
+    border: 2px solid chartreuse;
+    height: 50px;
+    width: 15%;
+    display: inline-block;
+}
+span{
+    border: 2px solid;
+    height: 100px;
+    display: block;
+}
+ .parent{
+    border: 2px solid;
+    height: 200px;
+    width: 600px;
+    margin: 100px;
+    padding: 5px;
+   
+
+ }
+
+.one{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    position: fixed;
+    
+    
+    
+}
+.two{
+    height: 50px;
+    width: 50px;
+    background-color: burlywood;
+    position: sticky;
+  
+    
+    
+}
+.three{
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    position: relative;
+    left: 100px;
+    top: 50px;
+  
+   
+    
+
+}
+img{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+}
