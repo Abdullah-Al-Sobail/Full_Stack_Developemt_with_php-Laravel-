@@ -22,4 +22,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 4. [ Class 05: Text, Fonts, and Icons](./CSS/Class05/Readme.md)
 5. [ CSS Class 06: Links, Lists, and Tables](./CSS/Class06/Readme.md)
 6. [ CSS Class 07: Display, Position, and Z-index](./CSS/Class07/Readme.md)
+7. [ CSS Class 08: Overflow, Float, and Opacity](./CSS/Class08/Readme.md)
 ... More classes will be added here.
