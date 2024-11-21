@@ -151,4 +151,4 @@ The `opacity` property adjusts the transparency of an element. Values range from
 
 **Instructor**: Muaz Muhammad.  
 **Course**: Full Stack Web Development  
-**Date**: 13th November, 2024
+**Date**: 21th November, 2024
