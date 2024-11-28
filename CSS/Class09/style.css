@@ -1,0 +1,53 @@
+ P{
+    color: aqua;
+}
+div p{
+    color: blue;
+    font-style: italic;
+}
+ div > p{
+    color: brown;
+    font-size: large;
+    border: 2px solid red;
+}
+ div + h1{
+    color: chartreuse;
+}
+div ~ p{
+    color: red;
+} 
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    background-color: blue;
+}
+a :active{
+    color: chartreuse;
+}
+p.pp:hover{
+    background-color: blueviolet;
+}
+.ahmed p:first-child span {
+    background-color: aqua;
+} 
+ p::first-line{
+    color: darkgreen;
+ }
+ p::first-letter{
+    color: blue;
+    font-weight: bold;
+    font-size: 300%;
+}
+p.second::first-line{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+h3::after{
+    content: url(car.jpeg);
+}
