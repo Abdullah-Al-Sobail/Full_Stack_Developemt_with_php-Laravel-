@@ -191,4 +191,4 @@ Pseudo-elements style specific parts of elements, such as the first line or the 
 
 **Instructor**: Muaz Muhammad  
 **Course**: Full Stack Web Development  
-**Date**: 18th November 2024
+**Date**: 28th November 2024
