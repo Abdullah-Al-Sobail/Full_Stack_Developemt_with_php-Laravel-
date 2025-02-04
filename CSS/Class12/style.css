@@ -1,0 +1,70 @@
+/* .box{
+    height: 300px;
+    width: 300px;
+    border: 5px solid;
+   border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+    background-image: url(./download\ \(1\).jpeg);
+    background-repeat: no-repeat;
+}
+.border{
+    height: 100px;
+    width: 300px;
+    border: 10px solid ;
+    border-image: linear-gradient(orange,green) 30% round;
+    
+
+}
+
+.background{
+   height: 500px;
+    padding: 10px;
+    background-image: url(./download.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: top, right;
+    opacity: 0.2;
+}
+.background1{
+    border: 10px dotted rebeccapurple;
+    padding: 5px;
+    background: url(./image.png) center  no-repeat; 
+    
+    background-origin: content-box;
+    
+}
+.background2{
+    border: 10px dotted rebeccapurple;
+    padding: 10px;
+    background: url(./image.png); 
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    
+} */
+ #div1{
+    border: 2px solid;
+    background-color: rgba(255, 0, 0, 0.1);
+
+ }
+ #div2{
+    border: 2px solid;
+    background-color: #ff000080;
+
+ }
+ #div3{
+    border: 2px solid;
+    background-color: hsl(0, 98%, 50%); opacity: 0.5;
+
+ }
+ #div4{
+    height: 50px;
+    background: linear-gradient(to right ,green, red , blue , black , brown,skyblue);
+ }
+ #div5{
+    height: 50px;
+    background: linear-gradient(45deg,green 20%, red);
+ }
+ #div6{
+    height: 100px;
+    background: radial-gradient( red 20%, green 80%);
+ }
