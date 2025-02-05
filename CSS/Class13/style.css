@@ -1,0 +1,69 @@
+/* h1{
+    text-shadow: 2px 2px  #000000;
+} */
+/* p{
+    color: white;
+    text-shadow: 2px 2px black, 0 0 10px blue, 0 0 5px green;
+} */
+
+/* div{
+    margin: 15px;
+    width: 80%;
+    height: 60px;
+    padding: 20px;
+    background-color: brown;
+}
+
+#shadow1{
+ box-shadow: -10px -10px bisque, 10px 10px ; 
+}
+#shadow2{
+    box-shadow: 10px 10px 5px;
+}
+#shadow3{
+    box-shadow: inset 10px 10px 5px;
+} */
+ /* .cardbody{
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+    font-size: 35px;
+ }
+ .card{
+    margin: 15px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0 #00000080, 0 6px 20px 0 #00000030;
+ }
+ .textcard{
+    padding: 2px;
+    background-color: blue;
+ } */
+.texteffest1{
+    white-space: nowrap;
+    width: 300px;
+    height: 80px;
+    border: 1px solid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.texteffest1:hover{
+    text-overflow: inherit;
+    overflow: visible;
+}
+p.texteffest2{
+    width: 300px;
+    height: 120px;
+    border: 2px solid aqua;
+    overflow-wrap: break-word;
+   
+}
+p.texteffest3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border: 1px solid;
+    word-break: break-all;
+}
