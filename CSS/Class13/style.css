@@ -40,7 +40,8 @@
     padding: 2px;
     background-color: blue;
  } */
-.texteffest1{
+
+/* .texteffest1{
     white-space: nowrap;
     width: 300px;
     height: 80px;
@@ -66,4 +67,18 @@ p.texteffest3{
     background-color: brown;
     border: 1px solid;
     word-break: break-all;
-}
+} */
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+ 
+ @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+ }
+ 
+ *{
+    font-family: myFirstFont;
+ }
