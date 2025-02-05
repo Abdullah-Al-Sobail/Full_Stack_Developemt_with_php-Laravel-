@@ -1,6 +1,6 @@
 # Full Stack Web Development Course - Documentation
 
-This repository contains the documentation for each class in the Full Stack Web Development course taught by Abdullah Al Sobail.
+This repository contains the documentation for each class in the Full Stack Web Development course taught by Abdullah Al Sobail & Muaz Muhammad.
 
 ## Class List HTML
 
@@ -27,4 +27,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 9. [ CSS Class 10: CSS Navigation Bar and Dropdown](./CSS/Class10/Readme.md)
 10. [ CSS Class 11: Attribute Selectors and Forms](./CSS/Class11/Readme.md)
 11. [ CSS Class 12: Borders, Backgrounds, and Colors ](./CSS/Class12/Readme.md)
+12. [ CSS Class 13: Shadows, Text Effects, and Web Fonts ](./CSS/Class13/Readme.md)
 .... More classes will be added here.
