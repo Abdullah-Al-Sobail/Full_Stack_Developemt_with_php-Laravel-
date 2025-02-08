@@ -28,4 +28,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 10. [ CSS Class 11: Attribute Selectors and Forms](./CSS/Class11/Readme.md)
 11. [ CSS Class 12: Borders, Backgrounds, and Colors ](./CSS/Class12/Readme.md)
 12. [ CSS Class 13: Shadows, Text Effects, and Web Fonts ](./CSS/Class13/Readme.md)
+13. [ CSS Class 14: Transforms & Transitions ](./CSS/Class14/Readme.md)
 .... More classes will be added here.
