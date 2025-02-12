@@ -30,4 +30,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 12. [ CSS Class 13: Shadows, Text Effects, and Web Fonts ](./CSS/Class13/Readme.md)
 13. [ CSS Class 14: Transforms & Transitions ](./CSS/Class14/Readme.md)
 14. [ CSS Class 15: Animations & Tooltips ](./CSS/Class15/Readme.md)
+15. [ CSS Class 16: Image Styling, Object Fit, and Masking](./CSS/Class16/Readme.md)
 .... More classes will be added here.
