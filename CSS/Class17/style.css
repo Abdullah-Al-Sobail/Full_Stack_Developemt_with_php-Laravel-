@@ -1,0 +1,117 @@
+/* 
+.button{
+    background-color: blue;
+    border: none;
+    color: antiquewhite;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.btn1{
+    background-color: aqua;
+    font-size: 10px;
+    padding: 10px 30px;
+    box-shadow: 0 5px 2px;
+}
+.btn2{
+    background-color: brown;
+    font-size: 30px;
+    padding: 30px 15px;
+    width: 50%;
+}
+.btn3{
+    background-color: chartreuse;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.btn4{
+    background-color: red;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+.btn5{
+    background-color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: 3px solid red;
+    
+}
+.btn6{
+    background-color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    border: 3px solid greenyellow;
+}
+.btn7{
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+}
+.btn7 span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn7 span:after{
+    content: "opps!";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn7:hover span{
+    padding-right: 55px;
+}
+.btn7:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+ */
+ /* ul.pagination{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+ }
+ ul.pagination li{
+    display: inline;
+ }
+ ul.pagination li a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+ }
+ ul.pagination li a.active{
+    background-color: aquamarine;
+    border-radius: 50%;
+ } */
+  .text{
+    column-count: 3;
+    column-gap: 30px;
+    /* column-rule-style: solid ;
+    column-rule-color: red;
+    column-rule-width: 4px; */
+    column-rule: 4px double red;
+    column-width: 200px;
+  }
+  h1{
+    column-span: all;
+  }
