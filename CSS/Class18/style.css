@@ -1,0 +1,122 @@
+/* div{
+    border: 2px solid blue;
+    background-color: aquamarine;
+    padding: 10px;
+    width: 250px;
+    /* resize: horizontal; */
+    /* resize: vertical; 
+    resize: both;
+    overflow: auto;
+} */
+ /* #outline{
+    margin: 20px;
+    background-color: brown;
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    border: 2px solid black;
+    outline: 2px dotted blue;
+    outline-offset: 10px;
+ }
+ .box1{
+    width: 250px;
+    height: 80px;
+    border: 2px solid red;
+    box-sizing: border-box;
+ }
+ .box2{
+    width: 250px;
+    height: 80px;
+    padding: 15px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+
+ } */
+  /* :root{
+    --blue: #0000FF;
+    --white: #ffffff;
+    --black: black;
+  }
+  @property --myColor{
+        syntax: "<color>";
+        inherits: true;
+        initial-value: gray;
+  }
+  body{
+    background-color: var(--blue);
+  }
+  .content{
+    background-color: var(--myColor);
+    border: 2px solid var(--black);
+    width: 200px;
+    height: 200px;
+  } */
+   /* body{
+    direction: rtl;
+   } */
+   /* .flex-items{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-items: flex-end; 
+    flex-wrap: wrap;
+    background-color: aqua;
+   }
+   .flexbox{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+   } */
+    /* body{
+        background-color: aliceblue;
+        font-size: 20px;
+    }
+    @media screen and (max-width: 650px) {
+        body{
+            background-color: lightblue;
+            font-size: 15px;
+            text-align: right;
+        }
+       
+        
+    }
+    @media screen and (max-width: 480px){
+        body{
+            background-color: aqua;
+            font-size: 10px;
+            border: 2px solid;
+            text-align: center;
+
+        }
+    } */
+     *{
+        box-sizing: border-box;
+     }
+     .nav{
+        overflow: hidden;
+        background-color: #333;
+     }
+     .nav a{
+        float: left;
+        display: block;
+        color: antiquewhite;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+     }
+     .nav a:hover{
+        background-color: bisque;
+        color: #000;
+     }
+     @media screen and (max-width: 650px){
+        .nav a{
+            float: none;
+            width: 100%;
+        }
+     }
