@@ -33,4 +33,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 15. [ CSS Class 16: Image Styling, Object Fit, and Masking](./CSS/Class16/Readme.md)
 16. [ CSS Class 17: Buttons, Pagination, and Multiple Columns](./CSS/Class17/Readme.md)
 17. [ CSS Class 18: CSS User Interface, Variables & @property, Media Queries, and Flexbox](./CSS/Class18/Readme.md)
+18. [ CSS Class 19: Responsive Web Design (RWD)](./CSS/Class19/Readme.md)
 .... More classes will be added here.
