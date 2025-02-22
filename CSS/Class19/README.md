@@ -1,5 +1,3 @@
-
-
 # **Full Stack Web Development -CSS Class 19: Responsive Web Design (RWD)**  
 
 ## **Topics Covered:**  
