@@ -38,4 +38,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 ## Class List Bootstarp
 
 1. [ Bootstrap Class 01: Introduction to Bootstrap](./Bootstrap/Class01/Readme.md)
+2. [ Bootstrap Class 02: Grid, Flexbox, Typography & Colors](./Bootstrap/Class02/Readme.md)
 .... More classes will be added here.
