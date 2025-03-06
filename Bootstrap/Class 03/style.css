@@ -1,6 +1,12 @@
-.custom-img{
+/* .custom-img{
     max-width: 100%;
     height: auto;
     border-radius: 50%;
     
-}
+} */
+ .custom-alert{
+    background-color: #e92f2f;
+    color: rgb(53, 1, 1);
+    padding: 15px;
+    border-radius: 5px;
+ }
