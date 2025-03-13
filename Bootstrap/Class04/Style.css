@@ -1,0 +1,34 @@
+.custom{
+    background-color: aqua;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.custom-bar{
+    background-color: lightgray;
+    width: 100%;
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.custom-fill{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+}
+.custom-page {
+    display: flex;
+    list-style: none;
+}
+.custom-page li {
+    padding: 10px;
+    border: 1px solid;
+}
+.custom-card{
+    margin: 10px;
+    border: 1px solid #ddd;
+    width: 250px;
+    box-shadow: 2px 2px 5px;
+}
