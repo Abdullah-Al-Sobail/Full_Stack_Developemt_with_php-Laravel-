@@ -41,4 +41,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 2. [ Bootstrap Class 02: Grid, Flexbox, Typography & Colors](./Bootstrap/Class02/Readme.md)
 3. [ Bootstrap Class 03: Tables, Images, Jumbotron & Alerts](./Bootstrap/Class03/Readme.md)
 4. [ Bootstrap Class 04: Buttons, Badges, Progress Bars, Spinners, Pagination, List Groups & Cards](./Bootstrap/Class04/Readme.md)
+5. [ Bootstrap Class 05: Navbars & Offcanvas](./Bootstrap/Class05/Readme.md)
 .... More classes will be added here.
