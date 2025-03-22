@@ -1,76 +1,156 @@
-
-# **Bootstrap Class 05: Navbars & Offcanvas**  
+# **Bootstrap Class 05: Dropdowns, Collapse, Navbars, & Offcanvas**  
 
 ## **Topics Covered**  
-1. **Bootstrap Navbars**  
-2. **Bootstrap Offcanvas**  
+1. **Bootstrap Dropdowns**  
+2. **Bootstrap Collapse**  
+3. **Bootstrap Navbars**  
+4. **Bootstrap Offcanvas**  
 
 ---
 
-## **1. Bootstrap Navbars**  
+## **1. Bootstrap Dropdowns**  
 
-### **What is a Navbar?**  
-A navbar is a responsive navigation header that is used for site navigation. Bootstrap provides a built-in `.navbar` class to style navigation bars.  
+Dropdowns are used to display a list of actions when a button is clicked. Bootstrap provides built-in classes for dropdowns, making them easy to implement.
 
-### **Basic Navbar using Bootstrap**  
-The simplest way to create a navbar is using the `.navbar` and `.nav` classes.
-
-#### **Example: Basic Bootstrap Navbar**  
+### **Example: Basic Dropdown**  
 ```html
-<ul class="nav">
-    <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-    </li>
-</ul>
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Dropdown Button
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">Action-1</a></li>
+        <li><a href="#" class="dropdown-item">Action-2</a></li>
+        <li><a href="#" class="dropdown-item">Action-3</a></li>
+    </ul>
+</div>
+```
+
+### **Example: Right-Aligned Dropdown**  
+```html
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Right Aligned Dropdown
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a href="#" class="dropdown-item">Action-1</a></li>
+        <li><a href="#" class="dropdown-item">Action-2</a></li>
+        <li><a href="#" class="dropdown-item">Action-3</a></li>
+    </ul>
+</div>
+```
+
+### **CSS-Only Dropdown (Without Bootstrap JavaScript)**  
+```html
+<div class="custom-dropdown">
+    <span>Mouse over me</span>
+    <div class="dropdown-content">
+        <p>Hello World!</p>
+    </div>
+</div>
+```
+#### **CSS**
+```css
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.custom-dropdown:hover .dropdown-content {
+    display: block;
+}
 ```
 
 ---
 
-### **Responsive Navbar with Expand Feature**  
-A fully responsive navbar can be created using `.navbar-expand-lg`. It collapses into a hamburger menu on small screens.
+## **2. Bootstrap Collapse**  
 
-#### **Example: Responsive Bootstrap Navbar**  
+The collapse component is used to hide or show content dynamically.
+
+### **Example: Basic Collapse Using Bootstrap**  
 ```html
-<nav class="navbar navbar-expand-lg bg-light">
+<button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#show">
+    Show
+</button>
+<div class="collapse" id="show">
+    <div class="card card-body bg-danger">
+        This is our hidden content
+    </div>
+</div>
+```
+
+### **CSS-Only Collapse (Without Bootstrap JavaScript)**  
+```html
+<button onclick="document.getElementById('customCollapse').classList.toggle('show')">Toggle</button>
+<div id="customCollapse" class="custom-collapse">
+    <p>Hidden content appears here</p>
+</div>
+```
+#### **CSS**
+```css
+.custom-collapse {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+}
+
+.custom-collapse.show {
+    height: auto;
+}
+```
+
+---
+
+## **3. Bootstrap Navbars**  
+
+The navbar component in Bootstrap is used for navigation menus.
+
+### **Example: Responsive Bootstrap Navbar**  
+```html
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Brand Name</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <form class="d-flex me-auto">
-                <input class="form-control me-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-primary" type="submit">Search</button>
-            </form>
+        <div class="collapse navbar-collapse" id="nav">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-            </ul> 
+            </ul>
         </div>
     </div>
 </nav>
 ```
 
----
-
-### **Styling Navbar with CSS**  
-Custom CSS can be used to style a navbar.
-
-#### **Example: Navbar using CSS**  
+### **CSS-Only Navbar (Without Bootstrap JavaScript)**  
+```html
+<div class="custom-navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact</a>
+</div>
+```
+#### **CSS**
 ```css
-.navbar {
-    background-color: #333;
+.custom-navbar {
+    background-color: aqua;
     overflow: hidden;
 }
-.navbar a {
+
+.custom-navbar a {
     float: left;
     display: block;
     color: white;
@@ -78,12 +158,9 @@ Custom CSS can be used to style a navbar.
     padding: 14px 20px;
     text-decoration: none;
 }
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
+
 @media screen and (max-width: 600px) {
-    .navbar a {
+    .custom-navbar a {
         float: none;
         display: block;
         text-align: left;
@@ -93,71 +170,83 @@ Custom CSS can be used to style a navbar.
 
 ---
 
-## **2. Bootstrap Offcanvas**  
+## **4. Bootstrap Offcanvas**  
 
-### **What is Offcanvas?**  
-Offcanvas is a hidden sidebar that slides in from the left, right, top, or bottom when triggered. It is used for navigation menus, sidebars, and more.
+The offcanvas component is a sidebar that slides in from the left or right.
 
-### **Basic Offcanvas Example**  
-An offcanvas sidebar can be triggered using a button.
-
-#### **Example: Left Sidebar Offcanvas**  
+### **Example: Bootstrap Offcanvas Sidebar**  
 ```html
-<button class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#myOffcanvas">
-    Open Sidebar
+<button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#bsoffcanvas">
+    Bootstrap Sidebar
 </button>
 
-<div class="offcanvas offcanvas-start" id="myOffcanvas">
+<div class="offcanvas offcanvas-end" id="bsoffcanvas">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title">Sidebar Menu</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body">
-        <h1>My Offcanvas</h1>
-        <p>Some text inside the sidebar.</p>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
     </div>
 </div>
 ```
 
----
-
-### **Right Sidebar Offcanvas**  
-The `.offcanvas-end` class makes the sidebar appear from the right.
-
-#### **Example: Right Sidebar Offcanvas**  
+### **CSS-Only Offcanvas (Without Bootstrap JavaScript)**  
 ```html
-<button class="btn btn-warning" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
-    Open Right Sidebar
+<button onclick="document.getElementById('customOffcanvas').classList.toggle('show')">
+    Sidebar
 </button>
-
-<div class="offcanvas offcanvas-end" id="offcanvasRight">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title">Right Sidebar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-        <p>Content for right sidebar.</p>
-    </div>
+<div class="custom-offcanvas" id="customOffcanvas">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact</a>
 </div>
+```
+#### **CSS**
+```css
+.custom-offcanvas {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    transition: left 0.3s ease-in-out;
+}
+
+.custom-offcanvas.show {
+    left: 0;
+}
 ```
 
 ---
 
 ## **Practice Section**  
+### **1. Bootstrap Dropdowns**
+- Create a dropdown with three different links.
+- Implement a dropdown where items are aligned to the right.
 
-### **1. Bootstrap Navbar**  
-- Create a navbar with four menu items and a search bar.  
-- Make the navbar collapse on small screens.  
+### **2. Bootstrap Collapse**
+- Create a collapsible section using Bootstrap.
+- Implement a collapse section that uses CSS only.
 
-### **2. Bootstrap Offcanvas**  
-- Create a sidebar that opens from the left with a button.  
-- Design an offcanvas that opens from the right with a title and some text.  
+### **3. Bootstrap Navbars**
+- Design a responsive navbar with Bootstrap.
+- Create a custom navbar using only CSS.
+
+### **4. Bootstrap Offcanvas**
+- Create a Bootstrap offcanvas menu that appears from the left.
+- Implement a sidebar that opens and closes using only CSS.
 
 ---
 
 ### **Instructor:** Muaz Muhammad  
 ### **Course:** Full Stack Web Development  
-### **Date:** 20-03-2025  
-
----
+### **Date:** 22-03-2025  
 
