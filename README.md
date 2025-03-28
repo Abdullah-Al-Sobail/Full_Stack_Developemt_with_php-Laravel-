@@ -42,4 +42,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 3. [ Bootstrap Class 03: Tables, Images, Jumbotron & Alerts](./Bootstrap/Class03/Readme.md)
 4. [ Bootstrap Class 04: Buttons, Badges, Progress Bars, Spinners, Pagination, List Groups & Cards](./Bootstrap/Class04/Readme.md)
 5. [ Bootstrap Class 05: Dropdowns, Collapse, Navbars, & Offcanvas](./Bootstrap/Class05/Readme.md)
+6. [ Bootstrap Class 06 - Modals, Tooltips, Toasts & Forms](./Bootstrap/Class06/Readme.md)
 .... More classes will be added here.
