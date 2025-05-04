@@ -1,6 +1,3 @@
-Here’s your structured markdown note for JavaScript Class 01, following your preferred format:
-
----
 
 # JavaScript Class 01 – Introduction to JavaScript
 
