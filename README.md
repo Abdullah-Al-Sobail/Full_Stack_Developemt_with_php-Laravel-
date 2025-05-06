@@ -45,4 +45,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 6. [ Bootstrap Class 06 - Modals, Tooltips, Toasts & Forms](./Bootstrap/Class06/Readme.md)
 
 ## Class List JavaScript
-1. [ JavaScript Class 01 – Introduction to JavaScript](./JavaScript/Class01/Readme.md)... More classes will be added here.
+1. [ JavaScript Class 01 – Introduction to JavaScript](./JavaScript/Class01/Readme.md)
+2. [ JavaScript Class 02 – Variables, let, const, and Data Types](./JavaScript/Class02/Readme.md)... More classes will be added here.
