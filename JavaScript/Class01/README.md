@@ -121,6 +121,6 @@ multi-line comment */
 
 ### Course: Full Stack Web Development
 
-### Date: \[04-05-2025]
+### Date: 04-05-2025
 
 
