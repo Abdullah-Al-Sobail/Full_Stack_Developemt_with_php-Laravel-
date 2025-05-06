@@ -31,7 +31,7 @@ var text1= 'i love js'
 // var nothing =null;
 var me = text + text1;
 var M= 'Hello'+ "i'm not java!"
-var myName ='Muaz';
+var myName ='Muaz'
 myName='Muhammad';
 console.log(M)
 
