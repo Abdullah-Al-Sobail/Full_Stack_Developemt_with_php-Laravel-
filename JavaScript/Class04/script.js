@@ -33,7 +33,35 @@
 //     console.log(this);
 // }
 // hellothis();
-function unName(){
-    this.name = 'Muaz';
-}
-unName();
+// function unName(){
+//     this.name = 'Muaz';
+// }
+// unName();
+function greet(name) {
+      return "Hello, " + name;
+    }
+
+    const greetArrow = name => "Hi, " + name;
+
+    const person = {
+      name: "Muaz",
+      greet: function () {
+        document.getElementById("output").innerText = "Regular: " + this.name;
+      },
+      greetArrow: () => {
+        document.getElementById("output").innerText = "Arrow: " + this.name;
+      }
+    };
+
+    function showGreet() {
+      document.getElementById("output").innerText = greet("Muaz");
+    }
+
+    function showArrow() {
+      document.getElementById("output").innerText = greetArrow("Muaz");
+    }
+
+    function showThis() {
+      person.greet();       // shows "Regular: Muaz"
+      person.greetArrow();  // shows "Arrow: undefined"
+    }
