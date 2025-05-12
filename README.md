@@ -49,4 +49,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 2. [ JavaScript Class 02 – Variables, let, const, and Data Types](./JavaScript/Class02/Readme.md)
 3. [ JavaScript Class 03 – Operators](./JavaScript/Class03/Readme.md)
 4. [ JavaScript Class 04 – Functions, Arrow Functions, & this Keyword](./JavaScript/Class04/Readme.md)
+5. [ JavaScript Class 05 – Conditional Statements](./JavaScript/Class05/Readme.md)
 ... More classes will be added here.
