@@ -51,4 +51,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 4. [ JavaScript Class 04 – Functions, Arrow Functions, & this Keyword](./JavaScript/Class04/Readme.md)
 5. [ JavaScript Class 05 – Conditional Statements](./JavaScript/Class05/Readme.md)
 6. [ JavaScript Class 06 – Loop Statements](./JavaScript/Class06/Readme.md)
+7. [ JavaScript Class 07 – Arrays & Array Methods](./JavaScript/Class07/Readme.md)
 ... More classes will be added here.
