@@ -183,6 +183,10 @@ function showStudents() {
 3. Click “Show All” → all students appear in the table.
 4. Green row = Pass (GPA ≥ 2.5), Red row = Fail.
 
+#
+
+![Output](./output1.PNG)
+
 ---
 
 ## 💡 Bonus Ideas for Practice
