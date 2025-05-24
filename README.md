@@ -54,4 +54,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 7. [ JavaScript Class 07 – Arrays & Array Methods](./JavaScript/Class07/Readme.md)
 8. [ JavaScript Class 08 – JS Objects & Constructors](./JavaScript/Class08/Readme.md)
 9. [ JavaScript Class 09 – Review & Mini Project: Student Profile Manager](./JavaScript/Class09/Readme.md)
+10. [ JavaScript Class 10 – Numbers, Math & Random](./JavaScript/Class10/Readme.md)
 ... More classes will be added here.
