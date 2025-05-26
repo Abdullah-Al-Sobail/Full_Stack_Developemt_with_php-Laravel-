@@ -1,4 +1,4 @@
-# JavaScript Class 11: Working with Dates
+# JavaScript Class 11: Dates and methods
 
 ---
 
