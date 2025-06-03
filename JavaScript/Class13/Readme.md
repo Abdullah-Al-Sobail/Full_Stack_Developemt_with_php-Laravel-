@@ -1,4 +1,4 @@
-# JavaScript Class 13 – The "this" Keyword, call(), apply(), bind()
+# JavaScript Class 13 – this Keyword, call(), apply(), bind()
 
 ---
 
