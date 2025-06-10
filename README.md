@@ -58,4 +58,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 11. [ JavaScript Class 11: Dates and methods](./JavaScript/Class11/Readme.md)
 12. [ JavaScript Class 12: Events,Scope & Hoisting](./JavaScript/Class12/Readme.md)
 13. [ JavaScript Class 13 – this Keyword, call(), apply(), bind()](./JavaScript/Class13/Readme.md)
+14. [ JavaScript Class 14 – Strict Mode, Constructor Functions, new Keyword & Inheritance](./JavaScript/Class14/Readme.md)
 ... More classes will be added here.
