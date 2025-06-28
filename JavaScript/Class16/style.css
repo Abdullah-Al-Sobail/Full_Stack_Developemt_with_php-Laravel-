@@ -1,0 +1,10 @@
+.box{
+    margin:  0 auto;
+    width: 200px;
+}
+.box .box-content {
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    margin: 15px;
+}
