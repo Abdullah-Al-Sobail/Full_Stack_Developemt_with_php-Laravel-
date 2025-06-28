@@ -60,4 +60,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 13. [ JavaScript Class 13 – this Keyword, call(), apply(), bind()](./JavaScript/Class13/Readme.md)
 14. [ JavaScript Class 14 – Strict Mode, Constructor Functions, new Keyword & Inheritance](./JavaScript/Class14/Readme.md)
 15. [ JavaScript Class 15 – Introduction to ES6, let/const/var, IIFE, Template Literals & String Methods](./JavaScript/Class15/Readme.md)
+16. [ JavaScript Class 16 – Arrow Functions, Lexical this, ES6 Array Methods](./JavaScript/Class16/Readme.md)
 ... More classes will be added here.
