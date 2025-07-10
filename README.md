@@ -63,4 +63,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 16. [ JavaScript Class 16 – Arrow Functions, Lexical this, ES6 Array Methods](./JavaScript/Class16/Readme.md)
 17. [ JavaScript Class 17 – Spread Operator, Destructuring, Rest & Default Parameters](./JavaScript/Class17/Readme.md)
 18. [ JavaScript Class 18 – ES6 Map, Class, Inheritance & Recap](./JavaScript/Class18/Readme.md)
+19. [ JavaScript Class 19 – Review & Project: Task Manager (Mini Project)](./JavaScript/Class19/Readme.md)
 ... More classes will be added here.
