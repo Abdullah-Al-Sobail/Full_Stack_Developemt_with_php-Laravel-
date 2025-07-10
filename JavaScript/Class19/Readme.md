@@ -50,7 +50,7 @@ Code:
 ✅ Step 2: On click of “Add Task”, the task gets added to the list.
 ✅ Step 3: Task can be deleted.
 
-—
+----
 
 ## style.css
 
@@ -157,7 +157,8 @@ const deleteTask = (id) => {
 ```
 
 ---
-### Final Output
+### Final Output:
+![Task Manager](./task%20manger.PNG)
 
 #### 📌 What You Learned Recap:
 
@@ -184,7 +185,7 @@ const deleteTask = (id) => {
 
 
 ### Instructor: Muaz Muhammad
-### Course: Full Stack Web Development – JavaScript
+### Course: Full Stack Web Development 
 ### Date: 2025-07-10
 
 
