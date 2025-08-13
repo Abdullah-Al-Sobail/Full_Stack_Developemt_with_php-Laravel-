@@ -64,5 +64,6 @@ This repository contains the documentation for each class in the Full Stack Web 
 17. [ JavaScript Class 17 – Spread Operator, Destructuring, Rest & Default Parameters](./JavaScript/Class17/Readme.md)
 18. [ JavaScript Class 18 – ES6 Map, Class, Inheritance & Recap](./JavaScript/Class18/Readme.md)
 19. [ JavaScript Class 19 – Review & Project: Task Manager (Mini Project)](./JavaScript/Class19/Readme.md)
-19. [ JavaScript Class 20: DOM Manipulation & Selecting Elements](./JavaScript/Class20/Readme.md)
+20. [ JavaScript Class 20: DOM Manipulation & Selecting Elements](./JavaScript/Class20/Readme.md)
+21. [ JavaScript Class 21: Playing with Elements & Events](./JavaScript/Class21/Readme.md)
 ... More classes will be added here.
