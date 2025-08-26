@@ -1,0 +1,101 @@
+/* ============ 0) Custom variables & base styles ============ */
+:root,
+:root[data-bs-theme="light"] {
+  --brand: #6b4cff;
+  --brand-2: #008fff;
+  --bs-body-bg: #f0f2f5;
+  --bs-body-color: #0f172a;
+  --bs-secondary-color: #51607a;
+  --bs-border-color: #3f6cc5;
+  --card-bg: #ffffff;
+  --panel-bg: #f8f9fa;
+  --shadow: 0 10px 24px rgba(16, 24, 40, 0.08);
+}
+
+:root[data-bs-theme="dark"] {
+  --brand: #7c5cff;
+  --brand-2: #00d4ff;
+  --bs-body-bg: #0b0d12;
+  --bs-body-color: #e7ecf3;
+  --bs-secondary-color: #aab3c2;
+  --bs-border-color: #1f2937;
+  --card-bg: #121826;
+  --panel-bg: #0f131a;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Bootstrap component overrides */
+.btn-primary {
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: color-mix(in oklab, var(--brand), #fff 10%);
+  --bs-btn-hover-border-color: color-mix(in oklab, var(--brand), #fff 10%);
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: var(--bs-body-color);
+  --bs-btn-border-color: var(--bs-border-color);
+}
+.btn-outline-secondary:hover {
+    background: color-mix(inoklab, var(--bs-body-color), transparent 90%);
+}
+
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.section{
+    padding: clamp(56px, 8vw, 96px);
+    position: relative;
+}
+.section-title{
+    margin-bottom: 18px;
+    font-size: 28px;
+}
+.lead{
+    max-width: 54ch;
+}
+.gradient{
+    background-color: linear-gradient(90deg, var(--brand),var(--brand-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+      /* navbar */
+.glass-nav{
+    backdrop-filter: blur(10px);
+    background-color: color-mix(in oklab, var(--bs-body-bg), transparent 70%);
+    border-bottom: 1px solid var(--bs-border-color) ;
+
+}
+.logo{
+    width: 40px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background:linear-gradient(135deg, var(--brand),var(--brand-2));
+}
+.navbar-toggler{
+    border: 1px solid var(--bs-border-color) ;
+    padding: 8px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.navbar-toggler:focus {
+    box-shadow: 0, 0, 0, 0.25rem color-mix(in oklab, var(--brand), transparent 70%);
+}
+.navbar-toggler span{
+    width: 22px;
+    height: 2px;
+    background: var(--bs-body-color);
+    border-radius: 2px;
+}
+.nav-link.active{
+    color: var(--brand) !important;
+}
+.theme-toggle{
+    font-size: 18px;
+    padding: 4px 8px;
+}
