@@ -61,6 +61,10 @@ body{
     background-clip: text;
     color: transparent;
 }
+.card{
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow);
+}
       /* navbar */
 .glass-nav{
     backdrop-filter: blur(10px);
@@ -98,4 +102,107 @@ body{
 .theme-toggle{
     font-size: 18px;
     padding: 4px 8px;
+}
+
+/* Home */
+.home{
+ overflow: clip;
+}
+.hero-title{
+    font-size: clamp(30px , 6vw, 48px);
+    line-height: 1.15;
+}
+.avater{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    color: white;
+    background: radial-gradient(120px 120px at 10% 10% ,var(--brand),var(--brand-2));
+}
+
+.pills, .tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+.badge, .tag{
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: color-mix(in oklab, var(--brand),transparent 85%);
+    border: 1px solid var(--bs-border-color);
+    font-weight: normal;
+    color: var(--bs-body-color);
+}
+.bg-blob{
+    position: absolute;
+    inset: -20% -10% auto -10%;
+    height: 70vh;
+    background: conic-gradient(from 140deg at 50% 50%, color-mix(in oklab, var(--brand),transparent 35%),color-mix(in oklab, var(--brand-2),transparent 35%), transparent);
+    filter: blur(60px) saturate(120%);
+    opacity: 0.35;
+    animation: float 24s linear infinite;
+    pointer-events: none;
+    z-index: -1;
+}
+@keyframes float {
+    to {transform: rotate(360deg);}
+}
+
+/* rest */
+.checklist{
+    padding-left: 18px;
+}
+.checklist li {
+    margin: 8px 0;
+}
+.chip{
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    color: var(--bs-secondary-color);
+}
+.chip.active{
+    background: var(--brand);
+    color: #fff;
+}
+
+.project.hidden{
+    display: none;
+}
+.thumb{
+    height: 120px;
+    border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+    background: linear-gradient(135deg,color-mix(in oklab,var(--brand),transparent 60%) ,color-mix(in oklab,var(--brand-2),transparent 60%));
+    border-bottom: 1px solid var(--bs-border-color);
+}
+.actions{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.card-footer{
+    background: transparent;
+}
+/* contact */
+.hp{
+position: absolute;
+left: -9999px;
+}
+/* footer */
+.footer{
+    border-top: 1px solid var(--bs-border-color);
+    padding: 18px 0;
+}
+.reveal{
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.6s var(--d,0s), transform 0.6s var(--d,0s);
+}
+.reveal.on{
+    opacity: 1;
+    transform: none;
 }
