@@ -16,18 +16,18 @@
 
     <header class="navbar navbar-expand-lg sticky-top glass-nav">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="#home" aria-label="Home">
                 <span class="logo me-2" aria-hidden="true">MM</span>
                 <span class="brand-name">Muaz</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="#nav-links"" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="#nav-links" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
             </button>
             <nav class="collapse navbar-collapse" id="nav-links">
                 <div class="navbar-nav ms-auto align-items-lg-center">
                     <a class="nav-link active" href="#home">Home</a>
                     <a class="nav-link active" href="#about">About</a>
-                    <a class="nav-link active" href="projects">Projects</a>
+                    <a class="nav-link active" href="#projects">Projects</a>
                     <a class="nav-link active" href="#contact">Contact</a>
                     <button id="theme-toggle" class="btn theme-toggle ms-lg-2 mt-2 mt-lg-0" aria-label="Toggle theme">🌙</button>
                 </div>
@@ -45,7 +45,7 @@
                         <p class="lead text-body-secondary">Frontend developer focused on performance, accessibility, and delightful UX.</p>
                        <div class="cta mt-4">
                         <a href="#projects" class="btn btn-primary me-2">See Projects</a>
-                       <a href="contact" class="btn btn-outline-info">Hire Me</a>
+                       <a href="#contact" class="btn btn-outline-info">Hire Me</a>
                     </div>
                     </div>
                 <div class="col-lg-5">
@@ -103,19 +103,20 @@
                 </div>
             </div>
         </section>
+
         <section id="projects" class="section">
             <div class="container">
                 <h2 class="section-title reveal">Projects</h2>
-                <div class="filters nav nav-pills">
-                    <button class="chip nav-link active">All</button>
-                    <button class="chip nav-link">Web</button>
-                    <button class="chip nav-link">Ui</button>
-                    <button class="chip nav-link">Tools</button>
+                <div class="filters reveal nav nav-pills mb-4" role="tablist" aria-label="Project-filters">
+                    <button class="chip nav-link active" data-filter="all" role="tab" aria-selected="true">All</button>
+                    <button class="chip nav-link" data-filter="web" role="tab">Web</button>
+                    <button class="chip nav-link" data-filter="ui" role="tab">UI</button>
+                    <button class="chip nav-link" data-filter="tools" role="tab">Tools</button>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4">
+                <div class="row g-4" id="project-cards">
+                    <div class="col-lg-4 project" data-category="web">
                         <article class="card h-100">
-                            <div class="thumb"></div>
+                            <div class="thumb" aria-hidden="true"></div>
                             <div class="card-body">
                                 <h3 class="card-title fs-5">Startup Landing</h3>
                                 <p class="card-text">Responsive landing page with sticky nav and sections.</p>
@@ -133,9 +134,9 @@
                             </article>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 project" data-category="ui">
                         <article class="card h-100">
-                            <div class="thumb"></div>
+                            <div class="thumb" aria-hidden="true"></div>
                             <div class="card-body">
                                 <h3 class="card-title fs-5">UI Component Kit</h3>
                                 <p class="card-text">Design tokens + components with clear docs</p>
@@ -151,9 +152,9 @@
                             </div>
                             </article>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 project" data-category="tools">
                         <article class="card h-100">
-                            <div class="thumb"></div>
+                            <div class="thumb" aria-hidden="true"></div>
                             <div class="card-body">
                                 <h3 class="card-title fs-5">Dev Tools</h3>
                                 <p class="card-text">Productivity toolbox for faster projects.</p>
@@ -174,12 +175,12 @@
                 </div>
             </div>
         </section>
-        <section id="Contact" class="section">
+        <section id="contact" class="section">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-8">
                         <h2 class="section-title reveal">Contact</h2>
-                        <form id="contact-form">
+                        <form id="contact-form novalidate">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name</label>
                                 <input id="name" name="name" type="text" class="form-control" placeholder="Your full name" required>
@@ -238,7 +239,7 @@
       </div>
       <div class="modal-footer">
         <button  id="modal-demo"  class="btn btn-secondary" data-bs-dismiss="modal">Live</button>
-        <button id="modal-demo"  class="btn btn-primary">Code</button>
+        <button id="modal-code"  class="btn btn-primary">Code</button>
       </div>
     </div>
   </div>
