@@ -66,4 +66,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 19. [ JavaScript Class 19 – Review & Project: Task Manager (Mini Project)](./JavaScript/Class19/Readme.md)
 20. [ JavaScript Class 20: DOM Manipulation & Selecting Elements](./JavaScript/Class20/Readme.md)
 21. [ JavaScript Class 21: Playing with Elements & Events](./JavaScript/Class21/Readme.md)
+22. [ JavaScript Class 22: Portfolio Website Project](./JavaScript/Class22/Readme.md)
 ... More classes will be added here.

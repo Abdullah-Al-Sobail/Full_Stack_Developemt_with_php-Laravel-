@@ -1,6 +1,6 @@
 
 
-# JavaScript Class 22:Portfolio Website Project
+# JavaScript Class 22: Portfolio Website Project
 
 **Topic:** Building a Portfolio Website (Final Project)
 
@@ -24,7 +24,7 @@
 
 ---
 
-## 📖 Detailed Explanation
+##  Detailed Explanation
 
 ### 1. **HTML Structure**
 
