@@ -77,3 +77,105 @@ chips.forEach((chip) => {
     });
   });
 });
+
+// contact
+
+const contact_Email = "muazmuhamma21@gmail.com";
+const form = qs("#contact-form");
+const statusEl = qs("#form-status");
+const toastEl =qs ("#toast");
+const toast = new bootstrap.Toast(toastEl);
+const liveMailto = qs("#live-mailto");
+
+const emailValid =(v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+
+const buildMailto =({name, email, message}) => {
+  const subject = encodeURIComponent(`Portfolio Inquiey form ${name}`);
+  const body = encodeURIComponent(`name: ${name}\nEmail: ${email}\n\nMessage: \n${message}`);
+  return `mailto:${contact_Email}?subject=${subject}&body=${body}`;
+};
+
+const updateLiveMailto = () =>{
+  const name = qs ('#name').value.trim()|| "Friend";
+  const email = qs ('#email').value.trim()|| "";
+  const message = qs ('#message').value.trim()|| "";
+liveMailto.href = buildMailto ({name, email, message});
+
+}
+
+["input", "change" , "keyup"].forEach(ev =>
+["#name", "#email", "#message"].forEach(id => qs(id).addEventListener(ev, updateLiveMailto))
+);
+updateLiveMailto();
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = qs ('#name').value.trim()|| "";
+  const email = qs ('#email').value.trim()|| "";
+  const message = qs ('#message').value.trim()|| "";
+  const website = qs('#website').value.trim();
+
+  if(website){
+    statusEl.textContent ="Spam detected.";
+    return;
+  }
+  if(name.length < 2) {
+    statusEl.textContent = "please enter your full name.";
+    return;
+  }
+  if(!emailValid(email)){
+    statusEl.textContent = "please enter a valid email.";
+    return;
+  }
+
+  if(message.length < 10){
+    statusEl.textContent = "Message is too short.";
+    return;
+  }
+  const href = buildMailto ({name, email, message});
+  toast.show();
+   window.location.href = href;
+   statusEl.textContent = "Your email app should open now. If not then email me directly.";
+
+   setTimeout(() => {
+    form.reset();
+    updateLiveMailto();
+   }, 500);
+
+});
+
+//footer
+
+qs("#year").textContent = new Date().getFullYear();
+
+
+// modal
+
+const projectModalEl = qs("#project-modal");
+const projectModal = new bootstrap.Modal(projectModalEl);
+
+qsa('.preview-btn').forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const card = btn.closest(".project");
+if (!card) return;
+    const title = card.dataset.title || "Project";
+    const desc =card.dataset.desc || "";
+    const demoUrl = card.dataset.demo;
+    const codeUrl = card.dataset.code;
+
+    qs("#modal-title", projectModalEl).textContent = title;
+    qs("#modal-desc", projectModalEl).textContent = desc;
+
+    const demoBtn = qs("#modal-demo", projectModalEl);
+    demoBtn.style.display = demoUrl ? "inline-flex" : "none";
+    if(demoUrl) demoBtn.href = demoUrl ;
+
+    const codeBtn = qs("#modal-code", projectModalEl);
+    codeBtn.style.display = codeUrl ? "inline-flex" : "none";
+    if(codeUrl) codeBtn.href = codeUrl ;
+
+    projectModal.show();
+
+
+  });
+});

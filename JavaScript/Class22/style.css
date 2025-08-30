@@ -56,7 +56,7 @@ body{
     max-width: 54ch;
 }
 .gradient{
-    background-color: linear-gradient(90deg, var(--brand),var(--brand-2));
+    background: linear-gradient(90deg, var(--brand),var(--brand-2));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

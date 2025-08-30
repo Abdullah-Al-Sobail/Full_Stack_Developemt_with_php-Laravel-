@@ -114,7 +114,8 @@
                     <button class="chip nav-link" data-filter="tools" role="tab">Tools</button>
                 </div>
                 <div class="row g-4" id="project-cards">
-                    <div class="col-lg-4 project" data-category="web">
+                    <div class="col-lg-4 project" data-category="web" data-title="Startup Landing" data-desc="Hero, pricing, and signup form with smooth animations." data-demo="https://muaz64.github.io/Demo-portfolio/"
+                    data-code="https://example.com/code1">
                         <article class="card h-100">
                             <div class="thumb" aria-hidden="true"></div>
                             <div class="card-body">
@@ -129,12 +130,13 @@
                             </div>
                             <div class="card-footer actions">
                                 <button class="btn btn-sm btn-primary preview-btn">Preview</button>
-                                <a class="btn btn-sm btn-outline-info" href="">Live</a>
+                                <a class="btn btn-sm btn-outline-info" href="https://muaz64.github.io/Demo-portfolio/">Live</a>
                             </div>
                             </article>
                         </div>
 
-                        <div class="col-lg-4 project" data-category="ui">
+                        <div class="col-lg-4 project" data-category="ui" data-title="Startup Landing" data-desc="Hero, pricing, and signup form with smooth animations." data-demo="https://example.com/demo1"
+                    data-code="https://example.com/code1">
                         <article class="card h-100">
                             <div class="thumb" aria-hidden="true"></div>
                             <div class="card-body">
@@ -152,7 +154,8 @@
                             </div>
                             </article>
                         </div>
-                        <div class="col-lg-4 project" data-category="tools">
+                        <div class="col-lg-4 project" data-category="tools" data-title="Startup Landing" data-desc="Hero, pricing, and signup form with smooth animations." data-demo="https://example.com/demo1"
+                    data-code="https://example.com/code1">
                         <article class="card h-100">
                             <div class="thumb" aria-hidden="true"></div>
                             <div class="card-body">
@@ -180,7 +183,7 @@
                 <div class="row g-5">
                     <div class="col-lg-8">
                         <h2 class="section-title reveal">Contact</h2>
-                        <form id="contact-form novalidate">
+                        <form id="contact-form" novalidate>
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name</label>
                                 <input id="name" name="name" type="text" class="form-control" placeholder="Your full name" required>
@@ -201,6 +204,7 @@
                                 <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
                             </div>
                             <button class="btn btn-primary" type="submit">Send</button>
+                           <p id="form-sttus" class="form-text mt-3" role="status" aria-live="polite"></p>
                         </form>
                     </div>
                     <div class="col-lg-4">
@@ -208,7 +212,7 @@
                             <div class="card-body">
                                 <h3 class="card-title">Reach me</h3>
                                 <p>Prefer email? Use your mail app:</p>
-                                <a id="mailto" class="btn btn-outline-primary" href="">Open Email</a>
+                                <a id="live-mailto" class="btn btn-outline-primary" href="mailto:you@example.com">Open Email</a>
                                 <ul class="list-unstyled mt-3">
                                     <li>📍 Chattogram, Bangladesh</li>
                                     <li>🕘 GMT+6</li>
@@ -223,11 +227,11 @@
 
     <footer class="footer">
         <div class="container d-flex justify-content-between align-items-center">
-            <small>© <span>2025</span> Muaz Muhammad. All rights reserved.</small>
+            <small>© <span id="year"></span> Muaz Muhammad. All rights reserved.</small>
             <a class="top btn btn-sm btn-outline-primary" href="#home" aria-label="Back to top">↑</a>
         </div>
     </footer>
-    <div class="modal fade" id="project-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal fade" id="project-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true" role="dialog" aria-modal="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -238,13 +242,21 @@
         <p id="modal-desc">Description</p>
       </div>
       <div class="modal-footer">
-        <button  id="modal-demo"  class="btn btn-secondary" data-bs-dismiss="modal">Live</button>
-        <button id="modal-code"  class="btn btn-primary">Code</button>
+        <button  id="modal-demo"  class="btn btn-secondary" data-bs-dismiss="modal" target="_blank"
+ rel="noopener">Live</button>
+        <button id="modal-code"  class="btn btn-primary" target="_blank" rel="noopener">Code</button>
       </div>
     </div>
   </div>
 </div>
-
+<div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3">
+    <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">Opening your email app...</div>
+            <button  type="button" class="btn-close me-2" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
