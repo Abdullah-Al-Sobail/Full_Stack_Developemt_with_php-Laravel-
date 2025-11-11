@@ -12,7 +12,7 @@
 
 ---
 
-# 1) What is React? (short & clear)
+## 1) What is React? (short & clear)
 
 React is a **JavaScript library** for building user interfaces (mainly single-page UIs).
 
@@ -28,7 +28,7 @@ React is a **JavaScript library** for building user interfaces (mainly single-pa
 
 ---
 
-# 2) Core Concepts (high level)
+## 2) Core Concepts (high level)
 
 ### Components
 
@@ -73,7 +73,7 @@ const [count, setCount] = useState(0);
 
 ---
 
-# 3) Recommended setup (Vite) — step-by-step (fast, modern dev experience)
+## 3) Recommended setup (Vite) — step-by-step (fast, modern dev experience)
 
 > **Why Vite?** fast dev server + lightning hot module replacement (HMR). Great for React.
 
@@ -130,7 +130,7 @@ const [count, setCount] = useState(0);
 
 ---
 
-# 4) Quick Learning Setup (CDN) — for tiny examples (no build tool)
+## 4) Quick Learning Setup (CDN) — for tiny examples (no build tool)
 
 If you just want to try React quickly in a single HTML file (good for learning JSX via Babel):
 
@@ -170,7 +170,7 @@ If you just want to try React quickly in a single HTML file (good for learning J
 
 ---
 
-# 5) Starter project structure (Vite + React)
+## 5) Starter project structure (Vite + React)
 
 ```
 my-react-app/
@@ -248,7 +248,7 @@ body { font-family: system-ui, sans-serif; }
 
 ---
 
-# 6) Using Bootstrap & FontAwesome in React
+## 6) Using Bootstrap & FontAwesome in React
 
 * **Bootstrap**: include CSS link in `index.html`, use Bootstrap classes in JSX: `<button className="btn btn-primary">`.
 * **FontAwesome**: easiest quick way —— CDN link in `index.html` and use `<i className="fas fa-heart"></i>`.
@@ -256,7 +256,7 @@ body { font-family: system-ui, sans-serif; }
 
 ---
 
-# 7) Step-by-step checklist to complete your first React app
+## 7) Step-by-step checklist to complete your first React app
 
 1. Create project: `npm create vite@latest my-react-app -- --template react`
 2. `cd my-react-app` → `npm install`
@@ -267,7 +267,7 @@ body { font-family: system-ui, sans-serif; }
 
 ---
 
-# 8) Example: Add a simple counter component (step-by-step)
+## 8) Example: Add a simple counter component (step-by-step)
 
 1. In `src/App.jsx` paste:
 
