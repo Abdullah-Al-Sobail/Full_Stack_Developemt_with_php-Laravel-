@@ -70,5 +70,5 @@ This repository contains the documentation for each class in the Full Stack Web 
 
 ## Class List React
 
-1.[ React Class 01 — React setup & React Introduction](./React/Class-01/Readme.md)
+1.[ React Class 01 — React setup & React Introduction](./React/Class-01/README.md)
 ... More classes will be added here.
